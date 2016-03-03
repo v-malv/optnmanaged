@@ -3,6 +3,12 @@
     "content": [
       {
         "files": [
+          "**/*.yml"
+        ],
+        "dest": "optn"
+      },
+      {
+        "files": [
           "**/*.md"
         ],
         "exclude": [

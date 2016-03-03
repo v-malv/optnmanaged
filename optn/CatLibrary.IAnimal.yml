@@ -1,0 +1,189 @@
+items:
+- uid: CatLibrary.IAnimal
+  id: IAnimal
+  parent: CatLibrary
+  children:
+  - CatLibrary.IAnimal.Eat
+  - CatLibrary.IAnimal.Eat(System.String)
+  - CatLibrary.IAnimal.Eat``1(``0)
+  - CatLibrary.IAnimal.Item(System.Int32)
+  - CatLibrary.IAnimal.Name
+  langs:
+  - csharp
+  - vb
+  name: IAnimal
+  fullName: CatLibrary.IAnimal
+  type: Interface
+  source:
+    path: D:\GitHub\docfx\docfx_project\src\SampleClass1\CatLibrary\Class1.cs
+    startLine: 15
+  assemblies:
+  - CatLibrary
+  namespace: CatLibrary
+  summary: "\r\nThis is <b>basic</b> interface of all animal.\r\n"
+  example: []
+  syntax:
+    content: public interface IAnimal
+    content.vb: Public Interface IAnimal
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: CatLibrary.IAnimal.Name
+  id: Name
+  parent: CatLibrary.IAnimal
+  langs:
+  - csharp
+  - vb
+  name: Name
+  fullName: CatLibrary.IAnimal.Name
+  type: Property
+  source:
+    path: D:\GitHub\docfx\docfx_project\src\SampleClass1\CatLibrary\Class1.cs
+    startLine: 21
+  assemblies:
+  - CatLibrary
+  namespace: CatLibrary
+  summary: "\r\nName of Animal.\r\n"
+  example: []
+  syntax:
+    content: string Name { get; }
+    content.vb: ReadOnly Property Name As String
+    parameters: []
+    return:
+      type: System.String
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - Get
+- uid: CatLibrary.IAnimal.Item(System.Int32)
+  id: Item(System.Int32)
+  parent: CatLibrary.IAnimal
+  langs:
+  - csharp
+  - vb
+  name: Item[Int32]
+  fullName: CatLibrary.IAnimal.Item[System.Int32]
+  type: Property
+  source:
+    path: D:\GitHub\docfx\docfx_project\src\SampleClass1\CatLibrary\Class1.cs
+    startLine: 28
+  assemblies:
+  - CatLibrary
+  namespace: CatLibrary
+  summary: "\r\nReturn specific number animal's name.\r\n"
+  example: []
+  syntax:
+    content: string this[int index] { get; }
+    content.vb: ReadOnly Property Item(index As Integer) As String
+    parameters:
+    - id: index
+      type: System.Int32
+      description: Animal number.
+    return:
+      type: System.String
+      description: Animal name.
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - Get
+  fullName.vb: CatLibrary.IAnimal.Item(System.Int32)
+  name.vb: Item(Int32)
+- uid: CatLibrary.IAnimal.Eat
+  id: Eat
+  parent: CatLibrary.IAnimal
+  langs:
+  - csharp
+  - vb
+  name: Eat()
+  fullName: CatLibrary.IAnimal.Eat()
+  type: Method
+  source:
+    path: D:\GitHub\docfx\docfx_project\src\SampleClass1\CatLibrary\Class1.cs
+    startLine: 33
+  assemblies:
+  - CatLibrary
+  namespace: CatLibrary
+  summary: "\r\nAnimal's eat method.\r\n"
+  example: []
+  syntax:
+    content: void Eat()
+    content.vb: Sub Eat
+- uid: CatLibrary.IAnimal.Eat``1(``0)
+  id: Eat``1(``0)
+  parent: CatLibrary.IAnimal
+  langs:
+  - csharp
+  - vb
+  name: Eat<Tool>(Tool)
+  fullName: CatLibrary.IAnimal.Eat<Tool>(Tool)
+  type: Method
+  source:
+    path: D:\GitHub\docfx\docfx_project\src\SampleClass1\CatLibrary\Class1.cs
+    startLine: 40
+  assemblies:
+  - CatLibrary
+  namespace: CatLibrary
+  summary: "\r\nOverload method of eat. This define the animal eat by which tool.\r\n"
+  example: []
+  syntax:
+    content: 'void Eat<Tool>(Tool tool)where Tool : class'
+    content.vb: Sub Eat(Of Tool As Class)(tool As Tool)
+    parameters:
+    - id: tool
+      type: '{Tool}'
+      description: Tool name.
+    typeParameters:
+    - id: Tool
+      description: It's a class type.
+  fullName.vb: CatLibrary.IAnimal.Eat(Of Tool)(Tool)
+  name.vb: Eat(Of Tool)(Tool)
+- uid: CatLibrary.IAnimal.Eat(System.String)
+  id: Eat(System.String)
+  parent: CatLibrary.IAnimal
+  langs:
+  - csharp
+  - vb
+  name: Eat(String)
+  fullName: CatLibrary.IAnimal.Eat(System.String)
+  type: Method
+  source:
+    path: D:\GitHub\docfx\docfx_project\src\SampleClass1\CatLibrary\Class1.cs
+    startLine: 47
+  assemblies:
+  - CatLibrary
+  namespace: CatLibrary
+  summary: "\r\nFeed the animal with some food\r\n"
+  example: []
+  syntax:
+    content: void Eat(string food)
+    content.vb: Sub Eat(food As String)
+    parameters:
+    - id: food
+      type: System.String
+      description: Food to eat
+references:
+- uid: CatLibrary
+  isExternal: false
+  name: CatLibrary
+  fullName: CatLibrary
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  fullName: System.String
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  fullName: System.Int32
+- uid: '{Tool}'
+  isExternal: false
+  name: Tool
+  fullName: Tool

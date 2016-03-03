@@ -1,0 +1,222 @@
+items:
+- uid: CatLibrary
+  id: CatLibrary
+  children:
+  - CatLibrary.Cat`2
+  - CatLibrary.CatException`1
+  - CatLibrary.Complex`2
+  - CatLibrary.FakeDelegate`1
+  - CatLibrary.IAnimal
+  - CatLibrary.ICat
+  - CatLibrary.ICatExtension
+  - CatLibrary.MRefDelegate`3
+  - CatLibrary.MRefNormalDelegate
+  - CatLibrary.Tom
+  - CatLibrary.TomFromBaseClass
+  langs:
+  - csharp
+  - vb
+  name: CatLibrary
+  fullName: CatLibrary
+  type: Namespace
+  source:
+    path: D:\GitHub\docfx\docfx_project\src\SampleClass1\CatLibrary\Class1.cs
+    startLine: 6
+  assemblies:
+  - CatLibrary
+references:
+- uid: CatLibrary.IAnimal
+  parent: CatLibrary
+  isExternal: false
+  name: IAnimal
+  fullName: CatLibrary.IAnimal
+- uid: CatLibrary.ICat
+  parent: CatLibrary
+  isExternal: false
+  name: ICat
+  fullName: CatLibrary.ICat
+- uid: CatLibrary.Cat`2
+  parent: CatLibrary
+  isExternal: false
+  name: Cat<T, K>
+  fullName: CatLibrary.Cat<T, K>
+  fullname.vb: CatLibrary.Cat(Of T, K)
+  name.vb: Cat(Of T, K)
+  spec.csharp:
+  - uid: CatLibrary.Cat`2
+    name: Cat
+    fullName: CatLibrary.Cat
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: ', '
+    fullName: ', '
+  - name: K
+    fullName: K
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CatLibrary.Cat`2
+    name: Cat
+    fullName: CatLibrary.Cat
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: ', '
+    fullName: ', '
+  - name: K
+    fullName: K
+  - name: )
+    fullName: )
+- uid: CatLibrary.Complex`2
+  parent: CatLibrary
+  isExternal: false
+  name: Complex<T, J>
+  fullName: CatLibrary.Complex<T, J>
+  fullname.vb: CatLibrary.Complex(Of T, J)
+  name.vb: Complex(Of T, J)
+  spec.csharp:
+  - uid: CatLibrary.Complex`2
+    name: Complex
+    fullName: CatLibrary.Complex
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: ', '
+    fullName: ', '
+  - name: J
+    fullName: J
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CatLibrary.Complex`2
+    name: Complex
+    fullName: CatLibrary.Complex
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: ', '
+    fullName: ', '
+  - name: J
+    fullName: J
+  - name: )
+    fullName: )
+- uid: CatLibrary.Tom
+  parent: CatLibrary
+  isExternal: false
+  name: Tom
+  fullName: CatLibrary.Tom
+- uid: CatLibrary.TomFromBaseClass
+  isExternal: false
+  name: TomFromBaseClass
+  fullName: CatLibrary.TomFromBaseClass
+- uid: CatLibrary.CatException`1
+  isExternal: false
+  name: CatException<T>
+  fullName: CatLibrary.CatException<T>
+  fullname.vb: CatLibrary.CatException(Of T)
+  name.vb: CatException(Of T)
+  spec.csharp:
+  - uid: CatLibrary.CatException`1
+    name: CatException
+    fullName: CatLibrary.CatException
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CatLibrary.CatException`1
+    name: CatException
+    fullName: CatLibrary.CatException
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: CatLibrary.ICatExtension
+  isExternal: false
+  name: ICatExtension
+  fullName: CatLibrary.ICatExtension
+- uid: CatLibrary.MRefNormalDelegate
+  isExternal: false
+  name: MRefNormalDelegate
+  fullName: CatLibrary.MRefNormalDelegate
+- uid: CatLibrary.MRefDelegate`3
+  isExternal: false
+  name: MRefDelegate<K, T, L>
+  fullName: CatLibrary.MRefDelegate<K, T, L>
+  fullname.vb: CatLibrary.MRefDelegate(Of K, T, L)
+  name.vb: MRefDelegate(Of K, T, L)
+  spec.csharp:
+  - uid: CatLibrary.MRefDelegate`3
+    name: MRefDelegate
+    fullName: CatLibrary.MRefDelegate
+  - name: <
+    fullName: <
+  - name: K
+    fullName: K
+  - name: ', '
+    fullName: ', '
+  - name: T
+    fullName: T
+  - name: ', '
+    fullName: ', '
+  - name: L
+    fullName: L
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CatLibrary.MRefDelegate`3
+    name: MRefDelegate
+    fullName: CatLibrary.MRefDelegate
+  - name: '(Of '
+    fullName: '(Of '
+  - name: K
+    fullName: K
+  - name: ', '
+    fullName: ', '
+  - name: T
+    fullName: T
+  - name: ', '
+    fullName: ', '
+  - name: L
+    fullName: L
+  - name: )
+    fullName: )
+- uid: CatLibrary.FakeDelegate`1
+  isExternal: false
+  name: FakeDelegate<T>
+  fullName: CatLibrary.FakeDelegate<T>
+  fullname.vb: CatLibrary.FakeDelegate(Of T)
+  name.vb: FakeDelegate(Of T)
+  spec.csharp:
+  - uid: CatLibrary.FakeDelegate`1
+    name: FakeDelegate
+    fullName: CatLibrary.FakeDelegate
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CatLibrary.FakeDelegate`1
+    name: FakeDelegate
+    fullName: CatLibrary.FakeDelegate
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: CatLibrary
+  isExternal: false
+  name: CatLibrary
+  fullName: CatLibrary

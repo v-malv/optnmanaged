@@ -1,0 +1,393 @@
+items:
+- uid: CatLibrary.TomFromBaseClass
+  id: TomFromBaseClass
+  parent: CatLibrary
+  children:
+  - CatLibrary.TomFromBaseClass.#ctor(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: TomFromBaseClass
+  fullName: CatLibrary.TomFromBaseClass
+  type: Class
+  source:
+    path: D:\GitHub\docfx\docfx_project\src\SampleClass1\CatLibrary\Class1.cs
+    startLine: 301
+  assemblies:
+  - CatLibrary
+  namespace: CatLibrary
+  summary: "\r\n*TomFromBaseClass* inherits from @\r\n"
+  example: []
+  syntax:
+    content: 'public class TomFromBaseClass : Tom'
+    content.vb: Public Class TomFromBaseClass Inherits Tom
+  inheritance:
+  - System.Object
+  - CatLibrary.Tom
+  inheritedMembers:
+  - CatLibrary.Tom.TomMethod(CatLibrary.Complex{CatLibrary.TomFromBaseClass,CatLibrary.TomFromBaseClass},System.Tuple{System.String,CatLibrary.Tom})
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CatLibrary.TomFromBaseClass.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: CatLibrary.TomFromBaseClass
+  langs:
+  - csharp
+  - vb
+  name: TomFromBaseClass(Int32)
+  fullName: CatLibrary.TomFromBaseClass.TomFromBaseClass(System.Int32)
+  type: Constructor
+  source:
+    path: D:\GitHub\docfx\docfx_project\src\SampleClass1\CatLibrary\Class1.cs
+    startLine: 308
+  assemblies:
+  - CatLibrary
+  namespace: CatLibrary
+  summary: "\r\nThis is a #ctor with parameter\r\n"
+  example: []
+  syntax:
+    content: public TomFromBaseClass(int k)
+    content.vb: Public Sub New(k As Integer)
+    parameters:
+    - id: k
+      type: System.Int32
+      description: 
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CatLibrary
+  isExternal: false
+  name: CatLibrary
+  fullName: CatLibrary
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: CatLibrary.Tom
+  parent: CatLibrary
+  isExternal: false
+  name: Tom
+  fullName: CatLibrary.Tom
+- uid: CatLibrary.Tom.TomMethod(CatLibrary.Complex{CatLibrary.TomFromBaseClass,CatLibrary.TomFromBaseClass},System.Tuple{System.String,CatLibrary.Tom})
+  parent: CatLibrary.Tom
+  isExternal: true
+  name: TomMethod(Complex<TomFromBaseClass, TomFromBaseClass>, Tuple<String, Tom>)
+  fullName: CatLibrary.Tom.TomMethod(CatLibrary.Complex<CatLibrary.TomFromBaseClass, CatLibrary.TomFromBaseClass>, System.Tuple<System.String, CatLibrary.Tom>)
+  fullname.vb: CatLibrary.Tom.TomMethod(CatLibrary.Complex(Of CatLibrary.TomFromBaseClass, CatLibrary.TomFromBaseClass), System.Tuple(Of System.String, CatLibrary.Tom))
+  name.vb: TomMethod(Complex(Of TomFromBaseClass, TomFromBaseClass), Tuple(Of String, Tom))
+  spec.csharp:
+  - uid: CatLibrary.Tom.TomMethod(CatLibrary.Complex{CatLibrary.TomFromBaseClass,CatLibrary.TomFromBaseClass},System.Tuple{System.String,CatLibrary.Tom})
+    name: TomMethod
+    fullName: CatLibrary.Tom.TomMethod
+  - name: (
+    fullName: (
+  - uid: CatLibrary.Complex`2
+    name: Complex
+    fullName: CatLibrary.Complex
+  - name: <
+    fullName: <
+  - uid: CatLibrary.TomFromBaseClass
+    name: TomFromBaseClass
+    fullName: CatLibrary.TomFromBaseClass
+  - name: ', '
+    fullName: ', '
+  - uid: CatLibrary.TomFromBaseClass
+    name: TomFromBaseClass
+    fullName: CatLibrary.TomFromBaseClass
+  - name: '>'
+    fullName: '>'
+  - name: ', '
+    fullName: ', '
+  - uid: System.Tuple`2
+    name: Tuple
+    fullName: System.Tuple
+    isExternal: true
+  - name: <
+    fullName: <
+  - uid: System.String
+    name: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: CatLibrary.Tom
+    name: Tom
+    fullName: CatLibrary.Tom
+  - name: '>'
+    fullName: '>'
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: CatLibrary.Tom.TomMethod(CatLibrary.Complex{CatLibrary.TomFromBaseClass,CatLibrary.TomFromBaseClass},System.Tuple{System.String,CatLibrary.Tom})
+    name: TomMethod
+    fullName: CatLibrary.Tom.TomMethod
+  - name: (
+    fullName: (
+  - uid: CatLibrary.Complex`2
+    name: Complex
+    fullName: CatLibrary.Complex
+  - name: '(Of '
+    fullName: '(Of '
+  - uid: CatLibrary.TomFromBaseClass
+    name: TomFromBaseClass
+    fullName: CatLibrary.TomFromBaseClass
+  - name: ', '
+    fullName: ', '
+  - uid: CatLibrary.TomFromBaseClass
+    name: TomFromBaseClass
+    fullName: CatLibrary.TomFromBaseClass
+  - name: )
+    fullName: )
+  - name: ', '
+    fullName: ', '
+  - uid: System.Tuple`2
+    name: Tuple
+    fullName: System.Tuple
+    isExternal: true
+  - name: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: CatLibrary.Tom
+    name: Tom
+    fullName: CatLibrary.Tom
+  - name: )
+    fullName: )
+  - name: )
+    fullName: )
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  fullName: System.Int32

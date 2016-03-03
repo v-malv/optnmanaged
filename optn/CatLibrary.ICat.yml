@@ -1,0 +1,178 @@
+items:
+- uid: CatLibrary.ICat
+  id: ICat
+  parent: CatLibrary
+  children:
+  - CatLibrary.ICat.eat
+  langs:
+  - csharp
+  - vb
+  name: ICat
+  fullName: CatLibrary.ICat
+  type: Interface
+  source:
+    path: D:\GitHub\docfx\docfx_project\src\SampleClass1\CatLibrary\Class1.cs
+    startLine: 53
+  assemblies:
+  - CatLibrary
+  namespace: CatLibrary
+  summary: "\r\nCat's interface\r\n"
+  example: []
+  syntax:
+    content: 'public interface ICat : IAnimal'
+    content.vb: Public Interface ICat Inherits IAnimal
+  inheritedMembers:
+  - CatLibrary.IAnimal.Name
+  - CatLibrary.IAnimal.Item(System.Int32)
+  - CatLibrary.IAnimal.Eat
+  - CatLibrary.IAnimal.Eat``1({Tool})
+  - CatLibrary.IAnimal.Eat(System.String)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: CatLibrary.ICat.eat
+  id: eat
+  parent: CatLibrary.ICat
+  langs:
+  - csharp
+  - vb
+  name: eat
+  fullName: CatLibrary.ICat.eat
+  type: Event
+  source:
+    path: D:\GitHub\docfx\docfx_project\src\SampleClass1\CatLibrary\Class1.cs
+    startLine: 59
+  assemblies:
+  - CatLibrary
+  namespace: CatLibrary
+  summary: "\r\neat event of cat. Every cat must implement this event.\r\n"
+  example: []
+  syntax:
+    content: event EventHandler eat
+    content.vb: Event eat As EventHandler
+references:
+- uid: CatLibrary
+  isExternal: false
+  name: CatLibrary
+  fullName: CatLibrary
+- uid: CatLibrary.IAnimal.Name
+  parent: CatLibrary.IAnimal
+  isExternal: false
+  name: Name
+  fullName: CatLibrary.IAnimal.Name
+- uid: CatLibrary.IAnimal.Item(System.Int32)
+  parent: CatLibrary.IAnimal
+  isExternal: true
+  name: Item[Int32]
+  fullName: CatLibrary.IAnimal.Item[System.Int32]
+  fullname.vb: CatLibrary.IAnimal.Item(System.Int32)
+  name.vb: Item(Int32)
+  spec.csharp:
+  - uid: CatLibrary.IAnimal.Item(System.Int32)
+    name: Item
+    fullName: CatLibrary.IAnimal.Item
+  - name: '['
+    fullName: '['
+  - uid: System.Int32
+    name: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: CatLibrary.IAnimal.Item(System.Int32)
+    name: Item
+    fullName: CatLibrary.IAnimal.Item
+  - name: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: CatLibrary.IAnimal.Eat
+  parent: CatLibrary.IAnimal
+  isExternal: false
+  name: Eat()
+  fullName: CatLibrary.IAnimal.Eat()
+  spec.csharp:
+  - uid: CatLibrary.IAnimal.Eat
+    name: Eat
+    fullName: CatLibrary.IAnimal.Eat
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: CatLibrary.IAnimal.Eat
+    name: Eat
+    fullName: CatLibrary.IAnimal.Eat
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: CatLibrary.IAnimal.Eat``1({Tool})
+  parent: CatLibrary.IAnimal
+  isExternal: false
+  name: Eat<Tool>(Tool)
+  fullName: CatLibrary.IAnimal.Eat<Tool>(Tool)
+  fullname.vb: CatLibrary.IAnimal.Eat(Of Tool)(Tool)
+  name.vb: Eat(Of Tool)(Tool)
+  spec.csharp:
+  - uid: CatLibrary.IAnimal.Eat``1(``0)
+    name: Eat<Tool>
+    fullName: CatLibrary.IAnimal.Eat<Tool>
+  - name: (
+    fullName: (
+  - name: Tool
+    fullName: Tool
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: CatLibrary.IAnimal.Eat``1(``0)
+    name: Eat(Of Tool)
+    fullName: CatLibrary.IAnimal.Eat(Of Tool)
+  - name: (
+    fullName: (
+  - name: Tool
+    fullName: Tool
+  - name: )
+    fullName: )
+- uid: CatLibrary.IAnimal.Eat(System.String)
+  parent: CatLibrary.IAnimal
+  isExternal: true
+  name: Eat(String)
+  fullName: CatLibrary.IAnimal.Eat(System.String)
+  spec.csharp:
+  - uid: CatLibrary.IAnimal.Eat(System.String)
+    name: Eat
+    fullName: CatLibrary.IAnimal.Eat
+  - name: (
+    fullName: (
+  - uid: System.String
+    name: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: CatLibrary.IAnimal.Eat(System.String)
+    name: Eat
+    fullName: CatLibrary.IAnimal.Eat
+  - name: (
+    fullName: (
+  - uid: System.String
+    name: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: CatLibrary.IAnimal
+  parent: CatLibrary
+  isExternal: false
+  name: IAnimal
+  fullName: CatLibrary.IAnimal

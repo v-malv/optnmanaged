@@ -1,0 +1,344 @@
+items:
+- uid: CatLibrary.ICatExtension
+  id: ICatExtension
+  parent: CatLibrary
+  children:
+  - CatLibrary.ICatExtension.Play(CatLibrary.ICat,System.String)
+  - CatLibrary.ICatExtension.Sleep(CatLibrary.ICat,System.Int64)
+  langs:
+  - csharp
+  - vb
+  name: ICatExtension
+  fullName: CatLibrary.ICatExtension
+  type: Class
+  source:
+    path: D:\GitHub\docfx\docfx_project\src\SampleClass1\CatLibrary\Class1.cs
+    startLine: 325
+  assemblies:
+  - CatLibrary
+  namespace: CatLibrary
+  summary: "\r\nIt's the class that contains ICat interface's extension method.\r\n<para>This class must be <b>public</b> and <b>static</b>.</para>\r\n<para>Also it shouldn't be a geneic class</para>\r\n"
+  example: []
+  syntax:
+    content: public class ICatExtension
+    content.vb: Public Class ICatExtension
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CatLibrary.ICatExtension.Sleep(CatLibrary.ICat,System.Int64)
+  id: Sleep(CatLibrary.ICat,System.Int64)
+  parent: CatLibrary.ICatExtension
+  langs:
+  - csharp
+  - vb
+  name: Sleep(ICat, Int64)
+  fullName: CatLibrary.ICatExtension.Sleep(CatLibrary.ICat, System.Int64)
+  type: Method
+  source:
+    path: D:\GitHub\docfx\docfx_project\src\SampleClass1\CatLibrary\Class1.cs
+    startLine: 332
+  assemblies:
+  - CatLibrary
+  namespace: CatLibrary
+  summary: "\r\nExtension method hint that how long the cat can sleep.\r\n"
+  example: []
+  syntax:
+    content: public static void Sleep(ICat icat, long hours)
+    content.vb: Public Shared Sub Sleep(icat As ICat, hours As Long)
+    parameters:
+    - id: icat
+      type: CatLibrary.ICat
+      description: The type will be extended.
+    - id: hours
+      type: System.Int64
+      description: The length of sleep.
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CatLibrary.ICatExtension.Play(CatLibrary.ICat,System.String)
+  id: Play(CatLibrary.ICat,System.String)
+  parent: CatLibrary.ICatExtension
+  langs:
+  - csharp
+  - vb
+  name: Play(ICat, String)
+  fullName: CatLibrary.ICatExtension.Play(CatLibrary.ICat, System.String)
+  type: Method
+  source:
+    path: D:\GitHub\docfx\docfx_project\src\SampleClass1\CatLibrary\Class1.cs
+    startLine: 339
+  assemblies:
+  - CatLibrary
+  namespace: CatLibrary
+  summary: "\r\nExtension method to let cat play\r\n"
+  example: []
+  syntax:
+    content: public static void Play(ICat icat, string toy)
+    content.vb: Public Shared Sub Play(icat As ICat, toy As String)
+    parameters:
+    - id: icat
+      type: CatLibrary.ICat
+      description: Cat
+    - id: toy
+      type: System.String
+      description: Something to play
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: CatLibrary
+  isExternal: false
+  name: CatLibrary
+  fullName: CatLibrary
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+- uid: CatLibrary.ICat
+  parent: CatLibrary
+  isExternal: false
+  name: ICat
+  fullName: CatLibrary.ICat
+- uid: System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  fullName: System.Int64
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  fullName: System.String

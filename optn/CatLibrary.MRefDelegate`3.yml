@@ -1,0 +1,64 @@
+items:
+- uid: CatLibrary.MRefDelegate`3
+  id: MRefDelegate`3
+  parent: CatLibrary
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: MRefDelegate<K, T, L>
+  fullName: CatLibrary.MRefDelegate<K, T, L>
+  type: Delegate
+  source:
+    path: D:\GitHub\docfx\docfx_project\src\SampleClass1\CatLibrary\Class1.cs
+    startLine: 359
+  assemblies:
+  - CatLibrary
+  namespace: CatLibrary
+  summary: "\r\nGeneric delegate with many constrains.\r\n"
+  example: []
+  syntax:
+    content: 'public delegate void MRefDelegate<K, T, L>(K k, T t, L l)where K : class, IComparable where T : struct where L : Tom, IEnumerable<long>;'
+    content.vb: Public Delegate Sub MRefDelegate(Of K As {Class, IComparable}, T As Structure, L As {Tom, IEnumerable(Of Long)})(k As K, t As T, l As L)
+    parameters:
+    - id: k
+      type: '{K}'
+      description: Type K.
+    - id: t
+      type: '{T}'
+      description: Type T.
+    - id: l
+      type: '{L}'
+      description: Type L.
+    typeParameters:
+    - id: K
+      description: Generic K.
+    - id: T
+      description: Generic T.
+    - id: L
+      description: Generic L.
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+  fullName.vb: CatLibrary.MRefDelegate(Of K, T, L)
+  name.vb: MRefDelegate(Of K, T, L)
+references:
+- uid: CatLibrary
+  isExternal: false
+  name: CatLibrary
+  fullName: CatLibrary
+- uid: '{K}'
+  isExternal: false
+  name: K
+  fullName: K
+- uid: '{T}'
+  isExternal: false
+  name: T
+  fullName: T
+- uid: '{L}'
+  isExternal: false
+  name: L
+  fullName: L

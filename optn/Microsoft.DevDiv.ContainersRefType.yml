@@ -1,0 +1,383 @@
+items:
+- uid: Microsoft.DevDiv.ContainersRefType
+  id: ContainersRefType
+  parent: Microsoft.DevDiv
+  children:
+  - Microsoft.DevDiv.ContainersRefType.ColorCount
+  - Microsoft.DevDiv.ContainersRefType.ContainersRefTypeEventHandler
+  - Microsoft.DevDiv.ContainersRefType.ContainersRefTypeNonRefMethod(System.Object[])
+  - Microsoft.DevDiv.ContainersRefType.GetColorCount
+  langs:
+  - csharp
+  - vb
+  name: ContainersRefType
+  fullName: Microsoft.DevDiv.ContainersRefType
+  type: Struct
+  source:
+    path: D:\GitHub\docfx\docfx_project\src\SampleClass1\BaseClass\BaseClass.cs
+    startLine: 11
+  assemblies:
+  - BaseClassForTestClass1
+  namespace: Microsoft.DevDiv
+  summary: "\r\nStruct ContainersRefType\r\n"
+  example: []
+  syntax:
+    content: public struct ContainersRefType
+    content.vb: Public Structure ContainersRefType
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Microsoft.DevDiv.ContainersRefType.ColorCount
+  id: ColorCount
+  parent: Microsoft.DevDiv.ContainersRefType
+  langs:
+  - csharp
+  - vb
+  name: ColorCount
+  fullName: Microsoft.DevDiv.ContainersRefType.ColorCount
+  type: Field
+  source:
+    path: D:\GitHub\docfx\docfx_project\src\SampleClass1\BaseClass\BaseClass.cs
+    startLine: 17
+  assemblies:
+  - BaseClassForTestClass1
+  namespace: Microsoft.DevDiv
+  summary: "\r\nColorCount\r\n "
+  example: []
+  syntax:
+    content: public long ColorCount
+    content.vb: Public ColorCount As Long
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.DevDiv.ContainersRefType.GetColorCount
+  id: GetColorCount
+  parent: Microsoft.DevDiv.ContainersRefType
+  langs:
+  - csharp
+  - vb
+  name: GetColorCount
+  fullName: Microsoft.DevDiv.ContainersRefType.GetColorCount
+  type: Property
+  source:
+    path: D:\GitHub\docfx\docfx_project\src\SampleClass1\BaseClass\BaseClass.cs
+    startLine: 49
+  assemblies:
+  - BaseClassForTestClass1
+  namespace: Microsoft.DevDiv
+  summary: "\r\nGetColorCount\r\n "
+  example: []
+  syntax:
+    content: public long GetColorCount { get; }
+    content.vb: Public ReadOnly Property GetColorCount As Long
+    parameters: []
+    return:
+      type: System.Int64
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - Get
+  - ReadOnly
+- uid: Microsoft.DevDiv.ContainersRefType.ContainersRefTypeNonRefMethod(System.Object[])
+  id: ContainersRefTypeNonRefMethod(System.Object[])
+  parent: Microsoft.DevDiv.ContainersRefType
+  langs:
+  - csharp
+  - vb
+  name: ContainersRefTypeNonRefMethod(Object[])
+  fullName: Microsoft.DevDiv.ContainersRefType.ContainersRefTypeNonRefMethod(System.Object[])
+  type: Method
+  source:
+    path: D:\GitHub\docfx\docfx_project\src\SampleClass1\BaseClass\BaseClass.cs
+    startLine: 67
+  assemblies:
+  - BaseClassForTestClass1
+  namespace: Microsoft.DevDiv
+  summary: "\r\nContainersRefTypeNonRefMethod\r\n<param name=\"parmsArray\">array</param>\r\n"
+  example: []
+  syntax:
+    content: public static int ContainersRefTypeNonRefMethod(params object[] parmsArray)
+    content.vb: Public Shared Function ContainersRefTypeNonRefMethod(ParamArray parmsArray As Object()) As Integer
+    parameters:
+    - id: parmsArray
+      type: System.Object[]
+    return:
+      type: System.Int32
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Microsoft.DevDiv.ContainersRefType.ContainersRefTypeNonRefMethod(System.Object())
+  name.vb: ContainersRefTypeNonRefMethod(Object())
+- uid: Microsoft.DevDiv.ContainersRefType.ContainersRefTypeEventHandler
+  id: ContainersRefTypeEventHandler
+  parent: Microsoft.DevDiv.ContainersRefType
+  langs:
+  - csharp
+  - vb
+  name: ContainersRefTypeEventHandler
+  fullName: Microsoft.DevDiv.ContainersRefType.ContainersRefTypeEventHandler
+  type: Event
+  source:
+    path: D:\GitHub\docfx\docfx_project\src\SampleClass1\BaseClass\BaseClass.cs
+    startLine: 85
+  assemblies:
+  - BaseClassForTestClass1
+  namespace: Microsoft.DevDiv
+  syntax:
+    content: public event EventHandler ContainersRefTypeEventHandler
+    content.vb: Public Event ContainersRefTypeEventHandler As EventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.DevDiv
+  isExternal: false
+  name: Microsoft.DevDiv
+  fullName: Microsoft.DevDiv
+- uid: System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+- uid: System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  fullName: System.Int64
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  fullName: System.Object[]
+  fullname.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    fullName: ()
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  fullName: System.Int32

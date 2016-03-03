@@ -1,0 +1,51 @@
+items:
+- uid: Microsoft.DevDiv
+  id: Microsoft.DevDiv
+  children:
+  - Microsoft.DevDiv.ContainersRefType
+  - Microsoft.DevDiv.ContainersRefType.ColorType
+  - Microsoft.DevDiv.ContainersRefType.ContainersRefTypeChild
+  - Microsoft.DevDiv.ContainersRefType.ContainersRefTypeChildInterface
+  - Microsoft.DevDiv.ContainersRefType.ContainersRefTypeDelegate
+  - Microsoft.DevDiv.ExplicitLayoutClass
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.DevDiv
+  fullName: Microsoft.DevDiv
+  type: Namespace
+  source:
+    path: D:\GitHub\docfx\docfx_project\src\SampleClass1\BaseClass\BaseClass.cs
+    startLine: 5
+  assemblies:
+  - BaseClassForTestClass1
+references:
+- uid: Microsoft.DevDiv.ContainersRefType
+  isExternal: false
+  name: ContainersRefType
+  fullName: Microsoft.DevDiv.ContainersRefType
+- uid: Microsoft.DevDiv.ContainersRefType.ColorType
+  parent: Microsoft.DevDiv
+  isExternal: false
+  name: ContainersRefType.ColorType
+  fullName: Microsoft.DevDiv.ContainersRefType.ColorType
+- uid: Microsoft.DevDiv.ContainersRefType.ContainersRefTypeDelegate
+  isExternal: false
+  name: ContainersRefType.ContainersRefTypeDelegate
+  fullName: Microsoft.DevDiv.ContainersRefType.ContainersRefTypeDelegate
+- uid: Microsoft.DevDiv.ContainersRefType.ContainersRefTypeChildInterface
+  isExternal: false
+  name: ContainersRefType.ContainersRefTypeChildInterface
+  fullName: Microsoft.DevDiv.ContainersRefType.ContainersRefTypeChildInterface
+- uid: Microsoft.DevDiv.ContainersRefType.ContainersRefTypeChild
+  isExternal: false
+  name: ContainersRefType.ContainersRefTypeChild
+  fullName: Microsoft.DevDiv.ContainersRefType.ContainersRefTypeChild
+- uid: Microsoft.DevDiv.ExplicitLayoutClass
+  isExternal: false
+  name: ExplicitLayoutClass
+  fullName: Microsoft.DevDiv.ExplicitLayoutClass
+- uid: Microsoft.DevDiv
+  isExternal: false
+  name: Microsoft.DevDiv
+  fullName: Microsoft.DevDiv

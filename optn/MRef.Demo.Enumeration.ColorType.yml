@@ -1,0 +1,129 @@
+items:
+- uid: MRef.Demo.Enumeration.ColorType
+  id: ColorType
+  parent: MRef.Demo.Enumeration
+  children:
+  - MRef.Demo.Enumeration.ColorType.Blue
+  - MRef.Demo.Enumeration.ColorType.Red
+  - MRef.Demo.Enumeration.ColorType.Yellow
+  langs:
+  - csharp
+  - vb
+  name: ColorType
+  fullName: MRef.Demo.Enumeration.ColorType
+  type: Enum
+  source:
+    path: D:\GitHub\docfx\docfx_project\src\SampleClass1\CatLibrary\Class1.cs
+    startLine: 398
+  assemblies:
+  - CatLibrary
+  namespace: MRef.Demo.Enumeration
+  summary: "\r\nEnumeration ColorType\r\n"
+  remarks: "\r\n<para>\r\nRed/Blue/Yellow can become all color you want.\r\n</para>\r\n<list type=\"bullet\">\r\n<listItem>\r\nOrange = Red + Yellow\r\n</listItem>\r\n<listItem>\r\nPurple = Red + Blue\r\n</listItem>\r\n<listItem>\r\nGreen = Blue + Yellow\r\n</listItem>\r\n</list>\r\n"
+  example: []
+  syntax:
+    content: public enum ColorType
+    content.vb: Public Enum ColorType
+  seealso:
+  - type: System.Object
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: MRef.Demo.Enumeration.ColorType.Red
+  id: Red
+  parent: MRef.Demo.Enumeration.ColorType
+  langs:
+  - csharp
+  - vb
+  name: Red
+  fullName: MRef.Demo.Enumeration.ColorType.Red
+  type: Field
+  source:
+    path: D:\GitHub\docfx\docfx_project\src\SampleClass1\CatLibrary\Class1.cs
+    startLine: 403
+  assemblies:
+  - CatLibrary
+  namespace: MRef.Demo.Enumeration
+  summary: "\r\nthis color is red\r\n"
+  example: []
+  syntax:
+    content: Red = 0
+  modifiers.csharp:
+  - public
+  - const
+  - static
+  modifiers.vb:
+  - Public
+  - Const
+  - Shared
+- uid: MRef.Demo.Enumeration.ColorType.Blue
+  id: Blue
+  parent: MRef.Demo.Enumeration.ColorType
+  langs:
+  - csharp
+  - vb
+  name: Blue
+  fullName: MRef.Demo.Enumeration.ColorType.Blue
+  type: Field
+  source:
+    path: D:\GitHub\docfx\docfx_project\src\SampleClass1\CatLibrary\Class1.cs
+    startLine: 407
+  assemblies:
+  - CatLibrary
+  namespace: MRef.Demo.Enumeration
+  summary: "\r\nblue like river\r\n"
+  example: []
+  syntax:
+    content: Blue = 1
+  modifiers.csharp:
+  - public
+  - const
+  - static
+  modifiers.vb:
+  - Public
+  - Const
+  - Shared
+- uid: MRef.Demo.Enumeration.ColorType.Yellow
+  id: Yellow
+  parent: MRef.Demo.Enumeration.ColorType
+  langs:
+  - csharp
+  - vb
+  name: Yellow
+  fullName: MRef.Demo.Enumeration.ColorType.Yellow
+  type: Field
+  source:
+    path: D:\GitHub\docfx\docfx_project\src\SampleClass1\CatLibrary\Class1.cs
+    startLine: 411
+  assemblies:
+  - CatLibrary
+  namespace: MRef.Demo.Enumeration
+  summary: "\r\nyellow comes from desert\r\n"
+  example: []
+  syntax:
+    content: Yellow = 2
+  modifiers.csharp:
+  - public
+  - const
+  - static
+  modifiers.vb:
+  - Public
+  - Const
+  - Shared
+references:
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: MRef.Demo.Enumeration
+  isExternal: false
+  name: MRef.Demo.Enumeration
+  fullName: MRef.Demo.Enumeration
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System

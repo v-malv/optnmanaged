@@ -1,0 +1,26 @@
+items:
+- uid: MRef.Demo.Enumeration
+  id: MRef.Demo.Enumeration
+  children:
+  - MRef.Demo.Enumeration.ColorType
+  langs:
+  - csharp
+  - vb
+  name: MRef.Demo.Enumeration
+  fullName: MRef.Demo.Enumeration
+  type: Namespace
+  source:
+    path: D:\GitHub\docfx\docfx_project\src\SampleClass1\CatLibrary\Class1.cs
+    startLine: 375
+  assemblies:
+  - CatLibrary
+references:
+- uid: MRef.Demo.Enumeration.ColorType
+  parent: MRef.Demo.Enumeration
+  isExternal: false
+  name: ColorType
+  fullName: MRef.Demo.Enumeration.ColorType
+- uid: MRef.Demo.Enumeration
+  isExternal: false
+  name: MRef.Demo.Enumeration
+  fullName: MRef.Demo.Enumeration

@@ -1,0 +1,117 @@
+items:
+- uid: Microsoft.DevDiv.ContainersRefType.ColorType
+  id: ContainersRefType.ColorType
+  parent: Microsoft.DevDiv
+  children:
+  - Microsoft.DevDiv.ContainersRefType.ColorType.Blue
+  - Microsoft.DevDiv.ContainersRefType.ColorType.Red
+  - Microsoft.DevDiv.ContainersRefType.ColorType.Yellow
+  langs:
+  - csharp
+  - vb
+  name: ContainersRefType.ColorType
+  fullName: Microsoft.DevDiv.ContainersRefType.ColorType
+  type: Enum
+  source:
+    path: D:\GitHub\docfx\docfx_project\src\SampleClass1\BaseClass\BaseClass.cs
+    startLine: 23
+  assemblies:
+  - BaseClassForTestClass1
+  namespace: Microsoft.DevDiv
+  summary: "\r\nEnumeration ColorType\r\n"
+  example: []
+  syntax:
+    content: public enum ColorType
+    content.vb: Public Enum ColorType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Microsoft.DevDiv.ContainersRefType.ColorType.Red
+  id: Red
+  parent: Microsoft.DevDiv.ContainersRefType.ColorType
+  langs:
+  - csharp
+  - vb
+  name: Red
+  fullName: Microsoft.DevDiv.ContainersRefType.ColorType.Red
+  type: Field
+  source:
+    path: D:\GitHub\docfx\docfx_project\src\SampleClass1\BaseClass\BaseClass.cs
+    startLine: 28
+  assemblies:
+  - BaseClassForTestClass1
+  namespace: Microsoft.DevDiv
+  summary: "\r\nred\r\n"
+  example: []
+  syntax:
+    content: Red = 0
+  modifiers.csharp:
+  - public
+  - const
+  - static
+  modifiers.vb:
+  - Public
+  - Const
+  - Shared
+- uid: Microsoft.DevDiv.ContainersRefType.ColorType.Blue
+  id: Blue
+  parent: Microsoft.DevDiv.ContainersRefType.ColorType
+  langs:
+  - csharp
+  - vb
+  name: Blue
+  fullName: Microsoft.DevDiv.ContainersRefType.ColorType.Blue
+  type: Field
+  source:
+    path: D:\GitHub\docfx\docfx_project\src\SampleClass1\BaseClass\BaseClass.cs
+    startLine: 32
+  assemblies:
+  - BaseClassForTestClass1
+  namespace: Microsoft.DevDiv
+  summary: "\r\nblue\r\n"
+  example: []
+  syntax:
+    content: Blue = 1
+  modifiers.csharp:
+  - public
+  - const
+  - static
+  modifiers.vb:
+  - Public
+  - Const
+  - Shared
+- uid: Microsoft.DevDiv.ContainersRefType.ColorType.Yellow
+  id: Yellow
+  parent: Microsoft.DevDiv.ContainersRefType.ColorType
+  langs:
+  - csharp
+  - vb
+  name: Yellow
+  fullName: Microsoft.DevDiv.ContainersRefType.ColorType.Yellow
+  type: Field
+  source:
+    path: D:\GitHub\docfx\docfx_project\src\SampleClass1\BaseClass\BaseClass.cs
+    startLine: 36
+  assemblies:
+  - BaseClassForTestClass1
+  namespace: Microsoft.DevDiv
+  summary: "\r\nyellow\r\n"
+  example: []
+  syntax:
+    content: Yellow = 2
+  modifiers.csharp:
+  - public
+  - const
+  - static
+  modifiers.vb:
+  - Public
+  - Const
+  - Shared
+references:
+- uid: Microsoft.DevDiv
+  isExternal: false
+  name: Microsoft.DevDiv
+  fullName: Microsoft.DevDiv

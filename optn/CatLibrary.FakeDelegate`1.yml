@@ -1,0 +1,90 @@
+items:
+- uid: CatLibrary.FakeDelegate`1
+  id: FakeDelegate`1
+  parent: CatLibrary
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: FakeDelegate<T>
+  fullName: CatLibrary.FakeDelegate<T>
+  type: Delegate
+  source:
+    path: D:\GitHub\docfx\docfx_project\src\SampleClass1\CatLibrary\Class1.cs
+    startLine: 372
+  assemblies:
+  - CatLibrary
+  namespace: CatLibrary
+  summary: "\r\nFake delegate\r\n"
+  example: []
+  syntax:
+    content: public delegate int FakeDelegate<T>(long num, string name, params object[] scores);
+    content.vb: Public Delegate Function FakeDelegate(Of T)(num As Long, name As String, ParamArray scores As Object()) As Integer
+    parameters:
+    - id: num
+      type: System.Int64
+      description: Fake para
+    - id: name
+      type: System.String
+      description: Fake para
+    - id: scores
+      type: System.Object[]
+      description: Optional Parameter.
+    typeParameters:
+    - id: T
+      description: Fake para
+    return:
+      type: System.Int32
+      description: Return a fake number to confuse you.
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+  fullName.vb: CatLibrary.FakeDelegate(Of T)
+  name.vb: FakeDelegate(Of T)
+references:
+- uid: CatLibrary
+  isExternal: false
+  name: CatLibrary
+  fullName: CatLibrary
+- uid: System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  fullName: System.Int64
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  fullName: System.String
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  fullName: System.Object[]
+  fullname.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    fullName: ()
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  fullName: System.Int32
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
